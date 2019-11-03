@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+        <div class="Col">
+            <a class="button-link" asp-area="" asp-page="/JournalEntries/Create">
+                Create New Entry
+            </a>
+                <a class="button-link" asp-area="" asp-page="/JournalEntries/Index">
+                View All Entries
+            </a>
+        </div>
+</div>
